@@ -22,6 +22,7 @@ def processPdf(pdfPath):
         print(f"Error processing {pdfPath}: {e}")
         return []
 
+
 def main(inputDir, outputDir):
     allEmails = []
     for filename in os.listdir(inputDir):
